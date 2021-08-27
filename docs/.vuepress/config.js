@@ -1,30 +1,29 @@
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'Just playing around',
+  theme: '',
+  title: 'front-end-doc',
+  description: '',
+  base: '/',
+  port: '8080',
   themeConfig: {
-    sidebar: [
+    nav: [
       {
-        title: 'Group 1',   // 必要的
-        // path: '/pages/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
-        children: [
-          '/pages/b',
-          '/pages/a'
-        ]
+        text: '首页',
+        link: '/'
       },
-      // '/pages/b'
-    ]
-  },
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@': 'pages'
+      {
+        text: '组件',
+        link: '/comps/'
       }
+    ],
+    sidebar: {
+      '/comps/': [
+        // '/comps/',
+        // '/comps/select.md',
+        '/comps/test.md'
+      ]
     }
   },
-  base: '/front-end-doc/',
-  markdown: {
-    lineNumbers: true
-  }
+  head: [],
+  plugins: ['demo-container'],
+  markdown: {}
 }

@@ -1,23 +1,18 @@
 {
   "name": "front-end-doc",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pobu168/front-end-doc.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pobu168/front-end-doc/issues"
-  },
-  "homepage": "https://github.com/pobu168/front-end-doc#readme",
-  "description": "",
-  "devDependencies": {
-    "vuepress": "^1.8.2"
+  "dependencies": {
+    "view-design": "4.3.2",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-demo-container": "^0.2.0"
   }
 }
