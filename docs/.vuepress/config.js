@@ -1,6 +1,6 @@
 module.exports = {
   theme: '',
-  title: 'front-end-doc',
+  title: 'WeCube前端',
   description: '',
   base: '/',
   port: '8080',
