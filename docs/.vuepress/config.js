@@ -17,7 +17,8 @@ module.exports = {
     ],
     sidebar: {
       '/comps/': [
-        '/comps/test.md'
+        '/comps/',
+        '/comps/JSON配置.md'
       ]
     }
   },

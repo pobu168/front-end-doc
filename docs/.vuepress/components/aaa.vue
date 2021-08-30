@@ -1,6 +1,6 @@
 <template>
   <div>
-    sfgdhf
+    <json-config></json-config>
     <button @click="test">test</button>  
   </div>
 </template>
