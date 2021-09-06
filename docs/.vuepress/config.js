@@ -18,7 +18,10 @@ module.exports = {
     sidebar: {
       '/comps/': [
         '/comps/',
-        '/comps/JSON配置.md'
+        '/comps/JSON配置.md',
+        '/comps/Table.md',
+        '/comps/Modal.md',
+        '/comps/Select.md',
       ]
     }
   },
